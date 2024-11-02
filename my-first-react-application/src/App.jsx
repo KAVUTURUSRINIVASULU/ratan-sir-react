@@ -107,11 +107,12 @@ function App(){
   const [apples, setApples] = useState(0);
   return(
     <>
+    <h2>modified code</h2>
     <h1>number of apples: {apples}</h1>
     {apples === 0 ? (
       <p>no apples left </p>
     ):(
-      <p> have some apples</p>
+      <p> have few apples</p>
     )}
     <button onClick={() => setApples(apples + 1)}>Add 1 apple</button>
     </>
