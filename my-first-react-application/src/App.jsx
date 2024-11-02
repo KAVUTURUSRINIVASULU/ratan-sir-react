@@ -108,6 +108,7 @@ function App(){
   return(
     <>
     <h2>modified code</h2>
+      <h3>modified correctly</h3>
     <h1>number of apples: {apples}</h1>
     {apples === 0 ? (
       <p>no apples left </p>
